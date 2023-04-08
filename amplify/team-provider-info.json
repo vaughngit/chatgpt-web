@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-sveltchatbot-dev-211812-authRole",
-      "UnauthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltchatbot-dev-211812-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltchatbot-dev-211812-authRole",
+      "AuthRoleName": "amplify-sveltechatbot-dev-13653-authRole",
+      "UnauthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltechatbot-dev-13653-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltechatbot-dev-13653-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-sveltchatbot-dev-211812-deployment",
-      "UnauthRoleName": "amplify-sveltchatbot-dev-211812-unauthRole",
-      "StackName": "amplify-sveltchatbot-dev-211812",
-      "StackId": "arn:aws:cloudformation:us-east-2:796072252262:stack/amplify-sveltchatbot-dev-211812/9d833f40-d5b3-11ed-bee3-0afc8ca382f6",
-      "AmplifyAppId": "d2l91i6q7xbcyf"
+      "DeploymentBucketName": "amplify-sveltechatbot-dev-13653-deployment",
+      "UnauthRoleName": "amplify-sveltechatbot-dev-13653-unauthRole",
+      "StackName": "amplify-sveltechatbot-dev-13653",
+      "StackId": "arn:aws:cloudformation:us-east-2:796072252262:stack/amplify-sveltechatbot-dev-13653/c0dc6e70-d5d7-11ed-9c63-0a36074856aa",
+      "AmplifyAppId": "d27qkun6350bey"
     },
     "categories": {
       "auth": {
-        "sveltchatbot3717d6cd": {}
+        "sveltechatbotc27422bc": {}
       }
     }
   }

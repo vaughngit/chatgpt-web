@@ -1,6 +1,6 @@
 {
   "auth": {
-    "sveltchatbot3717d6cd": {
+    "sveltechatbotc27422bc": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -24,6 +24,5 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
-  },
-  "hosting": {}
+  }
 }
