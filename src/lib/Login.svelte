@@ -4,12 +4,13 @@
   let isSigningIn = mode === 'signin'
   let promise // nothing to start with
 /* 
+
   function toggleMode() {
     if (mode === 'signup') mode = 'signin'
     else mode = 'signup'
     localStorage.setItem('svelteLoginMode', mode)
   }
-   */
+   */ 
 
   function handleSubmit() {
     if (mode === 'signup') {
@@ -30,7 +31,7 @@
     <p class="errorMessage">Something went wrong: {error.message}</p>
   {/await}
 
-<!--   
+<!--  
   <div class="SwitchContainer">
     <label class="switch">
       <input type="checkbox" on:click={toggleMode} bind:checked={isSigningIn}>
@@ -42,7 +43,8 @@
     Switch to Sign In
     {/if}
   </div>
-  -->
+  
+ -->
   {#if mode === 'signin'}
     <h1 style="align-items: center;">Sign In</h1>
   {:else if mode === 'confirm'}
