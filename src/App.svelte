@@ -1,7 +1,7 @@
 <script lang="ts">
   import Router, { location, querystring, replace } from 'svelte-spa-router'
   import { wrap } from 'svelte-spa-router/wrap'
-
+  import { store as authStore, logout } from './stores/auth.js'
   import Navbar from './lib/Navbar.svelte'
   import Sidebar from './lib/Sidebar.svelte'
   import Footer from './lib/Footer.svelte'
@@ -9,6 +9,13 @@
   import Chat from './lib/Chat.svelte'
   import NewChat from './lib/NewChat.svelte'
   import { chatsStorage, apiKeyStorage } from './lib/Storage.svelte'
+
+  //Login Components: 
+	//export let name;
+	import Login from './lib/Login.svelte'
+	//import Main from './Main.svelte'
+	import { store } from './stores/auth.js'
+
 
   // Check if the API key is passed in as a "key" query parameter - if so, save it
   // Example: https://niek.github.io/chatgpt-web/#/?key=sk-...
@@ -41,6 +48,15 @@
 
 <Navbar />
 
+
+<main>
+
+	
+	{#if $store != null}
+
+	<!-- <h1>Hello {name}!</h1> -->
+  <h2>You are logged in as {$authStore.username} <button type="button" on:click={logout}>Log Out</button></h2>
+
 <section class="section">
   <div class="container is-fullhd">
     <div class="columns">
@@ -55,5 +71,10 @@
     </div>
   </div>
 </section>
+
+{:else}
+<Login />
+{/if}
+</main>
 
 <Footer />

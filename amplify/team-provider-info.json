@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sveltchatbot-dev-211812-authRole",
+      "UnauthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltchatbot-dev-211812-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::796072252262:role/amplify-sveltchatbot-dev-211812-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-sveltchatbot-dev-211812-deployment",
+      "UnauthRoleName": "amplify-sveltchatbot-dev-211812-unauthRole",
+      "StackName": "amplify-sveltchatbot-dev-211812",
+      "StackId": "arn:aws:cloudformation:us-east-2:796072252262:stack/amplify-sveltchatbot-dev-211812/9d833f40-d5b3-11ed-bee3-0afc8ca382f6",
+      "AmplifyAppId": "d2l91i6q7xbcyf"
+    },
+    "categories": {
+      "auth": {
+        "sveltchatbot3717d6cd": {}
+      }
+    }
+  }
+}
