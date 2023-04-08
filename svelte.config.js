@@ -8,11 +8,15 @@
 
 import adapter from '@sveltejs/adapter-static'
 
-export default {
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
   preprocess: vitePreprocess(),
   kit: {
-    adapter: adapter({
-      fallback: 'index.html'
-    })
+    adapter: adapter(),
+    prerender: {
+      default: true
+    }
   }
 }
+
+export default config
