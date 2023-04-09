@@ -17,6 +17,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@rollup/plugin-dsv": "^3.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
     "@tauri-apps/cli": "^1.2.3",
     "@tsconfig/svelte": "^4.0.1",
@@ -37,7 +38,7 @@
     "svelte-markdown": "^0.2.3",
     "svelte-spa-router": "^3.3.0",
     "tslib": "^2.5.0",
-    "typescript": "^5.0.3",
+    "typescript": "^5.0.4",
     "vite": "^4.1.0"
   },
   "dependencies": {

@@ -11,10 +11,17 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
   // Only run PurgeCSS in production builds
   if (command === 'build') {
     return {
+      build: {
+        rollupOptions: {
+          output: {
+            dir: 'dist/public'
+          }
+        }
+      },
       plugins,
       resolve: {
         alias: {
-          './runtimeConfig': './runtimeConfig.browser',
+          './runtimeConfig': './runtimeConfig.browser'
         }
       },
       css: {
